@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Prakhar Saxena</title>
+</head>
+
+<body>
+  <!--starting of navigation bar-->
+  <nav class="navbar navbar-inverse bola navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!--Navigation button for mobile-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--Navbar Header-->
+        <a id="tkg" class="navbar-brand" href="#">Web Dev</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <!--Dropdown Menu-->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JAVA</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <!--Search Bar in Navigation Bar-->
+        <form class="navbar-form navbar-left" action="/action_page.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-danger" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+          </div>
+        </form>
+        <!--Sign up & Login-->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end of navigation bar-->
+  <!--Well box-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="well container text-center borderola">
+    <h1 class="h1ola">Services</h1>
+    <p class="pola">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam ullam obcaecati earum amet
+      reprehenderit voluptatum voluptatibus officia error fuga, excepturi tenetur vitae! Accusantium iusto omnis fugit,
+      ipsa sequi explicabo temporibus.</p>
+    <!--Button in Well-->
+    <div class="btn-group">
+      <a class="btn btn-lg btn-success aola" href="#">HTML</a>
+      <a class="btn btn-lg btn-warning aola" href="#">CSS</a>
+      <a class="btn btn-lg btn-info aola" href="#">JAVA</a>
+    </div>
+  </div>
+  <!--End Well Box-->
+  <div class="container">
+    <section>
+      <div class="page-header" id="feedback">
+        <h2>Feedback <small>Check out Awesome Feedback</small></h2>
+      </div>
+      <!-- start row -->
+      <div class="row">
+        <div class="col-sm-4">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolore ab nihil ex voluptatibus? Deleniti
+              dicta non deserunt atque sapiente.</p>
+          </blockquote>
+          <footer>-Yash Agarwal</footer>
+        </div>
+        <div class="col-sm-4">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolore ab nihil ex voluptatibus? Deleniti
+              dicta non deserunt atque sapiente.</p>
+          </blockquote>
+          <footer>-Yash Agarwal</footer>
+        </div>
+        <div class="col-sm-4">
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolore ab nihil ex voluptatibus? Deleniti
+              dicta non deserunt atque sapiente.</p>
+          </blockquote>
+          <footer>-Yash Agarwal</footer>
+        </div>
+      </div>
+      <!-- end row -->
+    </section>
+  </div>
+  <br>
+  <!-- call to action -->
+  <section>
+    <div class="well">
+      <div class="container text-center">
+        <h3>Subscribe for stuff</h3>
+        <p>Enter your Name & Email</p>
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Name</label>
+            <input type="text" class="form-control" id="Subscription" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="Email" placeholder="Your Email">
+          </div>
+          <button type="submit" class="btn btn-success">Subscribe</button>
+          <hr>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- end of call to action -->
+  <!-- Gallery -->
+  <div class="container">
+    <section>
+      <div class="page-header" id="gallery">
+        <h2>Gallery <small>Chect out Awesome Gallery</small></h2>
+      </div>
+      <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+          <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+          <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/1.jpg" width="1920" height="1080px">
+          </div>
+          <div class="item">
+            <img src="images/2.jpg" width="1920" height="1080">
+          </div>
+          <div class="item">
+            <img src="images/3.jpg" width="1920" height="1080">
+          </div>
+          <div class="item">
+            <img src="images/4.jpg" width="1920" height="1080">
+          </div>
+        </div>
+        <!--end carousel inner-->
+        <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev"><span
+            class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#screenshot-carousel" class="right carousel-control" data-slide="next"><span
+            class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </section>
+  </div>
+  <br>
+  <br>
+  <!-- end conatiner -->
+  <!-- Features -->
+  <div class="fola">
+    <div class="container">
+      <section>
+        <div class="page-header" id="feautures">
+          <h2>Features <small>Some of the coolest features of this App</small></h2>
+        </div>
+        <!-- End Page Header -->
+        <div class="row">
+          <div class="col-lg-8 col-xs-6">
+            <h1>Heading 1</h1>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit mollitia minus iure totam quos
+              repudiandae eligendi, expedita, dolorum vel aliquid quibusdam nihil velit necessitatibus earum consectetur
+              quas aliquam odit?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas eum, maxime cum quod
+              repudiandae dolore dolorem dolorum molestiae odio illum ex quidem velit accusantium laudantium quam autem
+              sit? Odit!</p>
+          </div>
+          <div class="col-lg-4 col-xs-6">
+            <img src="images/5.png" class="img-responsive">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-4 col-xs-6">
+            <img src="images/6.png" class="img-responsive">
+          </div>
+          <div class="col-lg-8 col-xs-6">
+            <h1>Heading 2</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sed praesentium non similique dolorum
+              nulla
+              accusamus amet eos? Aut nesciunt quidem quia possimus dolore laborum est soluta ut voluptatum architecto?
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas eum, maxime cum quod
+              repudiandae dolore dolorem dolorum molestiae odio illum ex quidem velit accusantium laudantium quam autem
+              sit? Odit!</p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-8 col-xs-6">
+            <h1>Heading 3</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in ex repellendus ea qui debitis cumque
+              at
+              nulla reiciendis odit, iusto eius dolorem provident veritatis ipsam! Iste et laudantium maxime!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas eum, maxime cum quod
+              repudiandae dolore dolorem dolorum molestiae odio illum ex quidem velit accusantium laudantium quam autem
+              sit? Odit!</p>
+          </div>
+          <div class="col-lg-4 col-xs-6">
+            <img src="images/7.png" class="img-responsive">
+          </div>
+        </div>
+        <!-- end row -->
+      </section>
+    </div>
+  </div>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="panel panel-default">
+          <div class="panel-body text-center">
+            <span class="glyphicon glyphicon-pencil"></span>
+            <h3>Heading 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, quis?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="panel panel-default">
+          <div class="panel-body text-center">
+            <span class="glyphicon glyphicon-user"></span>
+            <h3>Heading 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, temporibus?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="panel panel-default">
+          <div class="panel-body text-center" 1>
+            <span class="glyphicon glyphicon-ok"></span>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, dolorem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+  <!-- fAQs -->
+  <div class="fola">
+    <div class="container">
+      <section>
+        <div class="page-header" id="faq">
+          <h2>Faq. <small>Engaging with the consumers.</small></h2>
+        </div>
+        <!--End page header-->
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                  Question One?</a>
+              </div>
+              <!--end panel title-->
+              <div class="panel-collapse collapse in" id="collapse-1">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at hendrerit nisl. Pellentesque
+                    habitant morbi</p>
+                </div>
+                <!--End Panel Collapse-->
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                  Question Two?</a>
+              </div>
+              <!--end panel title-->
+              <div class="panel-collapse collapse" id="collapse-2">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at hendrerit nisl. Pellentesque
+                    habitant morbi</p>
+                </div>
+                <!--End Panel Collapse-->
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                  Question Three?</a>
+              </div>
+              <!--end panel title-->
+              <div class="panel-collapse collapse" id="collapse-3">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at hendrerit nisl. Pellentesque
+                    habitant morbi</p>
+                </div>
+                <!--End Panel Collapse-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end panel group-->
+
+      </section>
+    </div>
+    <!--end container-->
+    <!-- end  conatiner -->
+  </div>
+
+  <!-- conatact us -->
+  <div class="container">
+    <section>
+      <div class="page-header" id="contactus">
+        <h2>Contact Us <small>Contact us for more deatils</small></h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <p>Send us a message,or contact us form the address below.</p>
+          <address>
+            <strong>Kunwarpur</strong>
+            <br>45, Dr. Laxmi Narayan Marg kunwarpur,Bareilly
+            <br>9027030960
+            <br>
+          </address>
+        </div>
+        <div class="col-lg-8">
+          <form class="form-horizontal" action="">
+            <div class="form-group">
+              <label for="user name" class="col-lg-2 control-label">User Name</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="user name" placeholder="Enter Your Name">
+              </div>
+            </div>
+            <!-- end form group -->
+            <div class="form-group">
+              <label for="user email" class="col-lg-2 control-label">User Email</label>
+              <div class="col-lg-10">
+                <input type="email" class="form-control" id="user email" placeholder="Enter your Email Address">
+              </div>
+            </div>
+            <!-- end form group -->
+            <div class="form-group">
+              <label for="user website" class="col-lg-2 control-label">Website</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="user name" placeholder="If you have Any">
+              </div>
+            </div>
+            <!-- end form group -->
+            <div class="form-group">
+              <label for="user message" class="col-lg-2  control-label">Message</label>
+              <div class="col-lg-10">
+                <textarea class="form-control" id="user message" name="user message" cols="20" rows="10"
+                  placeholder="Enter your Message"></textarea>
+              </div>
+            </div>
+            <!-- end form group -->
+            <div class="form group">
+              <div class="col-lg-10 col-lf-offset-2">
+                <button type="submit" class="btn btn-danger">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- end row -->
+    </section>
+  </div>
+  <!-- footer -->
+  <footer class="fola">
+    <hr>
+    <div class="container text-center">
+      <h3>Subscribe for More Free Stuff</h3>
+      <p>Enter your name and email</p>
+      <form action="" class="form-inline">
+        <div class="form-group">
+          <label for="subscription">Subscribe</label>
+          <input type="text" class="form-control" id="Subscription" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="Email" placeholder="Your email">
+        </div>
+        <button type="submit" class="btn btn-success">Subscribe</button>
+        <hr>
+      </form>
+      <hr>
+      <ul class="list-inline">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+      <p>&copy; Copyright @ 2022</p>
+    </div>
+  </footer>
+  <!-- end of container -->
+  <br>
+</body>
+
+</html>
